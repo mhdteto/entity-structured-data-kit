@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://example.org/#alex-rowan",
+      "name": "Alex Rowan",
+      "url": "https://example.org/people/alex-rowan/",
+      "description": "Alex Rowan writes practical notes on maintaining a reading journal."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://example.org/#cedar-notes",
+      "name": "Cedar Notes",
+      "url": "https://example.org/",
+      "description": "Cedar Notes publishes educational articles about reading journals."
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://example.org/people/alex-rowan/#page",
+      "url": "https://example.org/people/alex-rowan/",
+      "name": "Alex Rowan \u2014 author profile",
+      "mainEntity": {
+        "@id": "https://example.org/#alex-rowan"
+      },
+      "publisher": {
+        "@id": "https://example.org/#cedar-notes"
+      }
+    }
+  ]
+}

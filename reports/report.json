@@ -1,0 +1,31 @@
+{
+  "tool": "entity-structured-data-kit",
+  "version": "1.0.0",
+  "scope": "Educational subset structural lint only. No full schema.org validation, factual verification, Google eligibility, ranking or AI citation assessment.",
+  "files": [
+    {
+      "file": "examples/01-person.json",
+      "issues": []
+    },
+    {
+      "file": "examples/02-organization.json",
+      "issues": []
+    },
+    {
+      "file": "examples/03-person-profile.json",
+      "issues": []
+    },
+    {
+      "file": "examples/04-article.json",
+      "issues": []
+    },
+    {
+      "file": "examples/05-organization-profile.json",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

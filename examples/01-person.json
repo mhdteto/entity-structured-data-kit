@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://example.org/#alex-rowan",
+  "name": "Alex Rowan",
+  "url": "https://example.org/people/alex-rowan/",
+  "description": "Alex Rowan writes practical notes on maintaining a reading journal."
+}

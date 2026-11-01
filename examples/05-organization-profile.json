@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://example.org/#cedar-notes",
+      "name": "Cedar Notes",
+      "url": "https://example.org/",
+      "description": "Cedar Notes publishes educational articles about reading journals."
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://example.org/about/#page",
+      "url": "https://example.org/about/",
+      "name": "About Cedar Notes",
+      "mainEntity": {
+        "@id": "https://example.org/#cedar-notes"
+      },
+      "publisher": {
+        "@id": "https://example.org/#cedar-notes"
+      }
+    }
+  ]
+}
