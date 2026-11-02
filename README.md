@@ -4,6 +4,10 @@
 
 # Entity Structured Data Kit
 
+[![Validation](https://github.com/mhdteto/entity-structured-data-kit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mhdteto/entity-structured-data-kit/actions/workflows/ci.yml)
+![Python CI](https://img.shields.io/badge/Python%20CI-3.10%20%7C%203.13-36d9ee?labelColor=081321)
+
+
 English, international educational JSON-LD examples for Person, Organization, ProfilePage and Article, with an offline Python structural linter. Keep entity identifiers stable and relationships understandable across pages.
 
 **A clean report means only that this educational subset lint found no issues.** It does not establish full schema.org validity, Google rich result eligibility, factual accuracy, rankings or AI citations. No network access, packages, API keys, telemetry or special “AI schema” are involved.
@@ -14,6 +18,21 @@ English, international educational JSON-LD examples for Person, Organization, Pr
   <a href="https://mohammedteto.com/method/"><img src=".github/readme-assets/method.svg" width="148" height="36" alt="The method" /></a>
   <a href="https://mohammedteto.com/research/"><img src=".github/readme-assets/research.svg" width="148" height="36" alt="Research" /></a>
 </p>
+
+<!-- suite-navigation -->
+## Start here: this repository in the workflow
+
+**Your task:** Model connected identities and publication relationships.
+
+[Method →](https://github.com/mhdteto/authority-architecture-system) · [Audit →](https://github.com/mhdteto/search-ai-discoverability-checker) · [Structure →](https://github.com/mhdteto/entity-structured-data-kit) · [Measure →](https://github.com/mhdteto/ai-citation-tracker)
+
+**Next step:** [ai-citation-tracker](https://github.com/mhdteto/ai-citation-tracker) — For a real study, collect dated answers and explicit citations under a protocol.
+
+**Try it:** [complete fictional workflow](https://github.com/mhdteto/authority-architecture-system/tree/main/examples/fictional-workflow) · [this tool’s inputs, command and expected output](examples/connected-workflow/README.md). All scenario records and engine answers are invented; generated reports are real CLI output.
+
+**Python CI:** 3.10 / 3.13. The badge links to the real workflow; it describes automated checks, not ranking, factual accuracy or AI visibility.
+[Map of all eight resources](https://github.com/mhdteto/authority-architecture-system/blob/main/docs/tool-map.md) · [Open an issue](https://github.com/mhdteto/entity-structured-data-kit/issues/new/choose)
+<!-- /suite-navigation -->
 
 ## Quick start
 

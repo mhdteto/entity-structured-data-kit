@@ -1,0 +1,8 @@
+{
+  "args": [
+    "validate.py",
+    "examples/connected-workflow/inputs/entity-graph.json",
+    "--output-dir",
+    "OUTPUT"
+  ]
+}

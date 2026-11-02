@@ -17,3 +17,4 @@ jobs:
       - run: python3 validate.py --all examples --output-dir work/reports
       - run: diff reports/report.json work/reports/report.json
       - run: diff reports/report.html work/reports/report.html
+      - run: python3 tools/verify_connected_example.py
